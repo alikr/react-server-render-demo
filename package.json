@@ -22,6 +22,7 @@
     "webpack-merge": "^4.1.0"
   },
   "scripts": {
+    "start":"node server",
     "dev": "webpack -w --watch-poll --progress --colors --display-error-details",
     "online": "webpack --progress --colors --display-error-details --env=prod"
   },
